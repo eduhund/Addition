@@ -27,7 +27,7 @@ Everyone who somehow intersects with Google Sheets in their work.
 4. Google will ask for an identification code (Script ID). Enter this one: 1OwaVl6r1f1dHlsVwDTY0Cfa1cmiM5iMn31rrMtY3rkHS6vTnMwvswSf0.
 5. Call the functions of this library from your script. There are three functions:
 
-**The ability to correct one specific cell**
+#### The ability to correct one specific cell
 
 function TryEditFiles(){
   var result;
@@ -37,7 +37,7 @@ function TryEditFiles(){
   Logger.log(result);
 }
 
-**The ability to correct several cells**
+#### The ability to correct several cells
 
 function TryEditFilesBulk(){
   var result;
@@ -52,7 +52,7 @@ function TryEditFilesBulk(){
   Logger.log(result);
 }
 
-**Ability to insert your own formula into a cell**
+#### The ability to insert your own formula into a cell
 
 function TryEditFilesManual(){
   var result;
